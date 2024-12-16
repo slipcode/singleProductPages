@@ -36,7 +36,14 @@ header .left_side .site_logo {
     height: 30px;
     width: 150px;
     cursor: pointer;
+    transition: 0.3s;
 }
+header .left_side .site_logo:hover {
+    transform: scale(1.2);
+   
+}
+
+
 
 header .left_side nav ul {
     width: 300px;
@@ -82,11 +89,11 @@ header .profile i:nth-child(2){
     color: #101F37;
 }
 
-
 header .profile .profile_info p{
  font-size: 9px;
  font-weight: 500;
  color: #C0C3C6;
+ margin-bottom: 5px;
 }
 header .profile .profile_info h3{
  font-size: 12px;
