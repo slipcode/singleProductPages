@@ -1,5 +1,95 @@
+:root {
+    -pri-co: jj;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    height: 67px;
+    width: 100%;
+    padding: 0 3%;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .left_side {
+    width: 478px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .left_side .site_logo {
+    background: url(../img/site_logo.png) no-repeat center center / contain;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+}
+
+header .left_side nav ul {
+    width: 300px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .left_side nav ul li a {
+    display: inline-block;
+    color: #1D364D;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+header .profile{
+    width: 246px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .profile :where(i , img){
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    color: rgb(99, 41, 41);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+header .profile i:first-child{
+    background: #F5F1EE;
+    color: #875541;
+}
+header .profile i:nth-child(2){
+    background: #EEEFF8;
+    color: #101F37;
+}
+
+
+header .profile .profile_info p{
+ font-size: 9px;
+ font-weight: 500;
+ color: #C0C3C6;
+}
+header .profile .profile_info h3{
+ font-size: 12px;
+ font-weight: 600;
+ color: #002f5e;
 }
