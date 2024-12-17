@@ -132,10 +132,11 @@ header .profile .profile_info h3 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.container .gallary .defualt{
-    background: url(../img/product1/img-4.png) ;
+
+.container .gallary .defualt {
+    background: url(../img/product1/img-4.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -144,32 +145,34 @@ header .profile .profile_info h3 {
     border-radius: 20px;
 
 }
-.container .gallary .mult-gall{
+
+.container .gallary .mult-gall {
     width: 447px;
     height: 80px;
     display: flex;
     justify-content: space-evenly;
 
-} 
+}
 
-.container .gallary .mult-gall div{
+.container .gallary .mult-gall div {
     height: 78px;
     width: 78px;
     background: red;
     border-radius: 10px;
     margin: 10px 0;
-cursor: pointer;
+    cursor: pointer;
 
 }
 
-.container .gallary .mult-gall div:first-child{
+.container .gallary .mult-gall div:first-child {
     background: url(../img/product1/img-1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 
 }
-.container .gallary .mult-gall div:nth-child(2){
+
+.container .gallary .mult-gall div:nth-child(2) {
     background: url(../img/product1/img-2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +180,8 @@ cursor: pointer;
 
 
 }
-.container .gallary .mult-gall div:nth-child(3){
+
+.container .gallary .mult-gall div:nth-child(3) {
     background: url(../img/product1/img-3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,7 +189,8 @@ cursor: pointer;
 
 
 }
-.container .gallary .mult-gall div:last-child{
+
+.container .gallary .mult-gall div:last-child {
     background: url(../img/product1/img-4.png);
     background-repeat: no-repeat;
     background-size: cover;
