@@ -122,12 +122,12 @@ header .profile .profile_info h3 {
     column-gap: 5px;
     margin-top: 20px;
     padding: 0 3%;
+    justify-content: space-between;
 }
 
 .container .gallary {
     width: 447px;
     height: 600px;
-    background: red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -135,16 +135,65 @@ header .profile .profile_info h3 {
     
 }
 .container .gallary .defualt{
-    background: #000;
-    width: 100%;
-    height: 60%;
+    background: url(../img/product1/img-4.png) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 447px;
+    height: 526px;
+    border-radius: 20px;
 
 }
 .container .gallary .mult-gall{
-    width: 100%;
-    height: 30%;
-    background: #000;
+    width: 447px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+
 } 
+
+.container .gallary .mult-gall div{
+    height: 78px;
+    width: 78px;
+    background: red;
+    border-radius: 10px;
+    margin: 10px 0;
+cursor: pointer;
+
+}
+
+.container .gallary .mult-gall div:first-child{
+    background: url(../img/product1/img-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.container .gallary .mult-gall div:nth-child(2){
+    background: url(../img/product1/img-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+.container .gallary .mult-gall div:nth-child(3){
+    background: url(../img/product1/img-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+.container .gallary .mult-gall div:last-child{
+    background: url(../img/product1/img-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
 
 .container .product-info {
     width: 50%;
