@@ -350,7 +350,7 @@ header .profile .profile_info h3 {
     display: flex;
 
 }
-.price-star-riviwe div:last-child .icon i{
+.price-star-riviwe div:last-child .icon div i{
     border-radius: 20px;
     height: 24px;
   display: flex;
@@ -358,7 +358,7 @@ header .profile .profile_info h3 {
   justify-content: center;
 }
 
-.price-star-riviwe div:last-child .icon .fa-star{
+.price-star-riviwe div:last-child .icon .first i{
     width: 49px;
     background: #FBF3EA;
     color: #D48D3B;
