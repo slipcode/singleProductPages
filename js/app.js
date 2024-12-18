@@ -1,8 +1,8 @@
 const defultImg = document.querySelector('.container .gallary .defualt');
-const firstImg = document.querySelector('.container .gallary .mult-gall div:first-child');
-const seconttImg = document.querySelector('.container .gallary .mult-gall div:nth-child(2)');
-const thirdImg = document.querySelector('.container .gallary .mult-gall div:nth-child(3)');
-const forthImg = document.querySelector('.container .gallary .mult-gall div:last-child');
+const firstImg = document.querySelector('.container .gallary .mult-gall .one');
+const seconttImg = document.querySelector('.container .gallary .mult-gall .two');
+const thirdImg = document.querySelector('.container .gallary .mult-gall .three');
+const forthImg = document.querySelector('.container .gallary .mult-gall .four');
 
 firstImg.addEventListener("click", () => {
     defultImg.style.background = "url('../img/product1/img-1.png')";

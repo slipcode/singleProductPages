@@ -151,9 +151,16 @@ header .profile .profile_info h3 {
     height: 80px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
 
 }
-
+.container .gallary .mult-gall .fa-chevron-left{
+    cursor: pointer;
+}
+.container .gallary .mult-gall .fa-chevron-right{
+    cursor: pointer;
+}
 
 
 .container .gallary .mult-gall div {
@@ -161,12 +168,11 @@ header .profile .profile_info h3 {
     width: 78px;
     background: red;
     border-radius: 10px;
-    margin: 10px 0;
     cursor: pointer;
 
 }
 
-.container .gallary .mult-gall div:first-child {
+.container .gallary .mult-gall .one{
     background-image: url('../img/product1/img-1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,7 +181,7 @@ header .profile .profile_info h3 {
 }
 
 
-.container .gallary .mult-gall div:nth-child(2) {
+.container .gallary .mult-gall .two {
     background: url('../img/product1/img-2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,7 +190,7 @@ header .profile .profile_info h3 {
 
 }
 
-.container .gallary .mult-gall div:nth-child(3) {
+.container .gallary .mult-gall .three {
     background: url('../img/product1/img-3.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,7 +199,7 @@ header .profile .profile_info h3 {
 
 }
 
-.container .gallary .mult-gall div:last-child {
+.container .gallary .mult-gall .four {
     background: url('../img/product1/img-4.png');
     background-repeat: no-repeat;
     background-size: cover;
