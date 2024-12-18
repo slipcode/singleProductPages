@@ -320,10 +320,10 @@ header .profile .profile_info h3 {
 
 }
 .product-info .price-star-riviwe{
-    width: 339px;
+    width: 100%;
     height: 54px;
     display: flex;
-    justify-content: space-between;
+    column-gap: 20px;
     
     
 }
@@ -339,7 +339,7 @@ header .profile .profile_info h3 {
     text-decoration: line-through;
 }
 
-/* start and commetnt */
+/* star and commetnt */
 
 .price-star-riviwe div:last-child{
     width: 210px;
@@ -350,23 +350,44 @@ header .profile .profile_info h3 {
     display: flex;
 
 }
-.price-star-riviwe div:last-child .icon div i{
+.price-star-riviwe div:last-child .icon i{
     border-radius: 20px;
     height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
-.price-star-riviwe div:last-child .icon .first i{
+.price-star-riviwe div:last-child .icon .fa-star{
     width: 49px;
     background: #FBF3EA;
     color: #D48D3B;
     margin-right: 20px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .price-star-riviwe div:last-child .icon .fa-comment-dots{
-    width: 91px;
-    background: #FBF3EA;
-    color: #D48D3B;
+    width: 120px;
+    background: #EDF0F8;
+    color: #3A4980;
+    margin-right: 20px;
+    font-size: 10px;
+    display: flex;
+    letter-spacing: 2px;
+    justify-content: space-evenly;
+}
 
+.price-star-riviwe div:last-child p{
+    margin-top: 10px;
+    color: #B9BBBF;
+    font-size: 10px;
+
+}
+
+.price-star-riviwe div:last-child p span{
+    color: #3E9242;
+    font-weight: bold;
+    font-size: 12px;
 }
