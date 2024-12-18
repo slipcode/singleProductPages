@@ -391,3 +391,33 @@ header .profile .profile_info h3 {
     font-weight: bold;
     font-size: 12px;
 }
+
+.product-info .box4{
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E4E4E4;
+  
+
+
+}
+
+.product-info .box4 .container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-info .box4 .container input[type = 'radio']{
+    display: none;
+}
+.product-info .box4 .container label{
+    height: 40px;
+    width: 40px;
+    outline: 8px solid #000;
+    border-radius: 50%;
+    background-color: #000000;
+    display: grid;
+    place-items: center;
+    color: white;
+}
