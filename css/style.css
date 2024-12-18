@@ -412,12 +412,108 @@ header .profile .profile_info h3 {
     display: none;
 }
 .product-info .box4 .container label{
-    height: 40px;
-    width: 40px;
-    outline: 8px solid #000;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
-    background-color: #000000;
     display: grid;
     place-items: center;
-    color: white;
+}
+
+.product-info .box4 .container label[for='red']{
+    background-color: #ff0000;
+    outline: 4px solid #ff0303;
+    border: 2px solid rgb(255, 3, 3);
+    color: red;
+
+}
+.product-info .box4 .container input#red[type = 'radio']:checked + label[for='red']{
+    background-color: #ff0000;
+    outline: 4px solid #ff0303;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+
+
+}
+
+/* red togle */
+.product-info .box4 .container label[for='red']{
+    background-color: #ff0000;
+    outline: 4px solid #ff0303;
+    border: 2px solid rgb(255, 3, 3);
+    color: red;
+
+}
+.product-info .box4 .container input#red[type = 'radio']:checked + label[for='red']{
+    background-color: #ff0000;
+    outline: 4px solid #ff0303;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+
+
+}
+/* black */
+.product-info .box4 .container label[for='black']{
+    background-color: #000000;
+    outline: 4px solid #000000;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+
+}
+.product-info .box4 .container input#black:checked + label[for='black']{
+    background-color: #000000;
+    outline: 4px solid #070000;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+
+
+
+}
+
+/* yellow */
+.product-info .box4 .container label[for='yellow']{
+    background-color: yellow;
+    outline: 4px solid yellow;
+    border: 2px solid yellow;
+    color: yellow;
+
+}
+.product-info .box4 .container input#yellow:checked + label[for='yellow']{
+    background-color: yellow;
+    outline: 4px solid yellow;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+
+
+}
+/* blue */
+.product-info .box4 .container label[for='blue']{
+    background-color: blue;
+    outline: 4px solid blue;
+    border: 2px solid blue;
+    color: blue;
+
+}
+.product-info .box4 .container input#blue:checked + label[for='blue']{
+    background-color: blue;
+    outline: 4px solid blue;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+
+
+}
+/* blue */
+.product-info .box4 .container label[for='greenyellow']{
+    background-color: greenyellow;
+    outline: 4px solid greenyellow;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+
+}
+.product-info .box4 .container input#greenyellow:checked + label[for='greenyellow']{
+    background-color: greenyellow;
+    outline: 4px solid greenyellow;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+
+
 }
