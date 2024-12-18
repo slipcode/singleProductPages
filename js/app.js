@@ -23,7 +23,7 @@ thirdImg.addEventListener("click", () => {
 
 })
 forthImg.addEventListener("click", () => {
-    defultImg.style.background = firstImgPath;
+    defultImg.style.background = forthImgPath;
 
 
 })

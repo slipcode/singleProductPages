@@ -311,28 +311,32 @@ header .profile .profile_info h3 {
     font-size: 12px;
     cursor: pointer;
 }
+
 /* box3 */
-.box3{
+.box3 {
     width: 100%;
     margin-top: 30px;
     padding-bottom: 20px;
     border-bottom: 1px solid #E4E4E4;
 
 }
-.product-info .price-star-riviwe{
+
+.product-info .price-star-riviwe {
     width: 100%;
     height: 54px;
     display: flex;
     column-gap: 20px;
-    
-    
+
+
 }
-.price-star-riviwe div:first-child h3{
+
+.price-star-riviwe div:first-child h3 {
     font-size: 26px;
     font-weight: bold;
     color: #3A4980;
 }
-.price-star-riviwe div:first-child h4{
+
+.price-star-riviwe div:first-child h4 {
     font-size: 16px;
     font-weight: bold;
     color: #00000050;
@@ -341,25 +345,27 @@ header .profile .profile_info h3 {
 
 /* star and commetnt */
 
-.price-star-riviwe div:last-child{
+.price-star-riviwe div:last-child {
     width: 210px;
     height: 47px;
 }
-.price-star-riviwe div:last-child .icon{
+
+.price-star-riviwe div:last-child .icon {
     height: 24px;
     display: flex;
 
 }
-.price-star-riviwe div:last-child .icon i{
+
+.price-star-riviwe div:last-child .icon i {
     border-radius: 20px;
     height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
-.price-star-riviwe div:last-child .icon .fa-star{
+.price-star-riviwe div:last-child .icon .fa-star {
     width: 49px;
     background: #FBF3EA;
     color: #D48D3B;
@@ -368,7 +374,8 @@ header .profile .profile_info h3 {
     display: flex;
     justify-content: space-evenly;
 }
-.price-star-riviwe div:last-child .icon .fa-comment-dots{
+
+.price-star-riviwe div:last-child .icon .fa-comment-dots {
     width: 120px;
     background: #EDF0F8;
     color: #3A4980;
@@ -379,39 +386,40 @@ header .profile .profile_info h3 {
     justify-content: space-evenly;
 }
 
-.price-star-riviwe div:last-child p{
+.price-star-riviwe div:last-child p {
     margin-top: 10px;
     color: #B9BBBF;
     font-size: 10px;
 
 }
 
-.price-star-riviwe div:last-child p span{
+.price-star-riviwe div:last-child p span {
     color: #3E9242;
     font-weight: bold;
     font-size: 12px;
 }
 
-.product-info .box4{
+.product-info .box4 {
     width: 100%;
     margin-top: 30px;
     padding-bottom: 20px;
     border-bottom: 1px solid #E4E4E4;
-  
+
 
 
 }
 
-.product-info .box4 .container{
+.product-info .box4 .container {
     height: 60px;
     display: flex;
     justify-content: space-between;
 }
 
-.product-info .box4 .container input[type = 'radio']{
+.product-info .box4 .container input[type='radio'] {
     display: none;
 }
-.product-info .box4 .container label{
+
+.product-info .box4 .container label {
     height: 45px;
     width: 45px;
     border-radius: 50%;
@@ -419,14 +427,14 @@ header .profile .profile_info h3 {
     place-items: center;
 }
 
-.product-info .box4 .container label[for='red']{
+.product-info .box4 .container label[for='red'] {
     background-color: #ff0000;
-    outline: 4px solid #ff0303;
     border: 2px solid rgb(255, 3, 3);
     color: red;
 
 }
-.product-info .box4 .container input#red[type = 'radio']:checked + label[for='red']{
+
+.product-info .box4 .container input#red[type='radio']:checked+label[for='red'] {
     background-color: #ff0000;
     outline: 4px solid #ff0303;
     border: 2px solid white;
@@ -436,14 +444,15 @@ header .profile .profile_info h3 {
 }
 
 /* red togle */
-.product-info .box4 .container label[for='red']{
+.product-info .box4 .container label[for='red'] {
     background-color: #ff0000;
-    outline: 4px solid #ff0303;
+    /* outline: 4px solid #ff0303; */
     border: 2px solid rgb(255, 3, 3);
     color: red;
 
 }
-.product-info .box4 .container input#red[type = 'radio']:checked + label[for='red']{
+
+.product-info .box4 .container input#red[type='radio']:checked+label[for='red'] {
     background-color: #ff0000;
     outline: 4px solid #ff0303;
     border: 2px solid white;
@@ -451,15 +460,16 @@ header .profile .profile_info h3 {
 
 
 }
+
 /* black */
-.product-info .box4 .container label[for='black']{
+.product-info .box4 .container label[for='black'] {
     background-color: #000000;
-    outline: 4px solid #000000;
     border: 2px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
 
 }
-.product-info .box4 .container input#black:checked + label[for='black']{
+
+.product-info .box4 .container input#black:checked+label[for='black'] {
     background-color: #000000;
     outline: 4px solid #070000;
     border: 2px solid white;
@@ -470,14 +480,14 @@ header .profile .profile_info h3 {
 }
 
 /* yellow */
-.product-info .box4 .container label[for='yellow']{
+.product-info .box4 .container label[for='yellow'] {
     background-color: yellow;
-    outline: 4px solid yellow;
     border: 2px solid yellow;
     color: yellow;
 
 }
-.product-info .box4 .container input#yellow:checked + label[for='yellow']{
+
+.product-info .box4 .container input#yellow:checked+label[for='yellow'] {
     background-color: yellow;
     outline: 4px solid yellow;
     border: 2px solid white;
@@ -485,15 +495,16 @@ header .profile .profile_info h3 {
 
 
 }
+
 /* blue */
-.product-info .box4 .container label[for='blue']{
+.product-info .box4 .container label[for='blue'] {
     background-color: blue;
-    outline: 4px solid blue;
     border: 2px solid blue;
     color: blue;
 
 }
-.product-info .box4 .container input#blue:checked + label[for='blue']{
+
+.product-info .box4 .container input#blue:checked+label[for='blue'] {
     background-color: blue;
     outline: 4px solid blue;
     border: 2px solid white;
@@ -501,15 +512,16 @@ header .profile .profile_info h3 {
 
 
 }
+
 /* blue */
-.product-info .box4 .container label[for='greenyellow']{
+.product-info .box4 .container label[for='greenyellow'] {
     background-color: greenyellow;
-    outline: 4px solid greenyellow;
     border: 2px solid greenyellow;
     color: greenyellow;
 
 }
-.product-info .box4 .container input#greenyellow:checked + label[for='greenyellow']{
+
+.product-info .box4 .container input#greenyellow:checked+label[for='greenyellow'] {
     background-color: greenyellow;
     outline: 4px solid greenyellow;
     border: 2px solid white;
