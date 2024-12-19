@@ -180,7 +180,6 @@ header .profile .profile_info h3 {
 .container .gallary .mult-gall div {
     height: 78px;
     width: 78px;
-    background: red;
     /* Placeholder color */
     border-radius: 10px;
     cursor: pointer;
