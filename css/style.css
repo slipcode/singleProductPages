@@ -145,13 +145,16 @@ header .profile .profile_info h3 {
 
 /* Default large image display */
 .container .gallary .defualt {
-    background-image: url('../img/product1/img-4.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     width: 447px;
     height: 526px;
     border-radius: 20px;
+    overflow: hidden;
+}
+.container .gallary .defualt img{
+    width: 100%;
 }
 
 /* Small gallery thumbnails section */
@@ -181,36 +184,16 @@ header .profile .profile_info h3 {
     /* Placeholder color */
     border-radius: 10px;
     cursor: pointer;
+    overflow: hidden;
 }
 
 /* Specific thumbnail backgrounds */
-.container .gallary .mult-gall .one {
-    background-image: url('../img/product1/img-1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+
+.container .gallary .mult-gall div img{
+    width: 100%;
+    
 }
 
-.container .gallary .mult-gall .two {
-    background: url('../img/product1/img-2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.container .gallary .mult-gall .three {
-    background: url('../img/product1/img-3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.container .gallary .mult-gall .four {
-    background: url('../img/product1/img-4.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
 
 /* ---------------- Product Information Section ---------------- */
 /* Placeholder styling for product information */
@@ -298,11 +281,7 @@ header .profile .profile_info h3 {
     background: #FFF0F0;
 }
 
-/* .product-info .product-itle-and-reviwe .white-list div:last-child{
-    justify-content: end;
-   align-items: center;
-   height: 100%;
-} */
+
 .product-info .product-itle-and-reviwe .white-list i {
     background: #EDF0F8;
     padding: 5.5px 7px;
@@ -399,6 +378,7 @@ header .profile .profile_info h3 {
     font-size: 12px;
 }
 
+/* box 4 */
 .product-info .box4 {
     width: 100%;
     margin-top: 30px;
@@ -409,10 +389,17 @@ header .profile .profile_info h3 {
 
 }
 
+.product-info .box4 h4{
+    font-weight: normal;
+    font-size: 13px;
+    color: #B9BBBF;
+    
+}
 .product-info .box4 .container {
     height: 60px;
     display: flex;
     justify-content: space-between;
+    margin-left: -15px;
 }
 
 .product-info .box4 .container input[type='radio'] {
@@ -434,7 +421,7 @@ header .profile .profile_info h3 {
 
 }
 
-.product-info .box4 .container input#red[type='radio']:checked+label[for='red'] {
+.product-info .box4 .container input#red:checked+label[for='red'] {
     background-color: #ff0000;
     outline: 4px solid #ff0303;
     border: 2px solid white;
@@ -452,7 +439,7 @@ header .profile .profile_info h3 {
 
 }
 
-.product-info .box4 .container input#red[type='radio']:checked+label[for='red'] {
+.product-info .box4 .container input#red:checked+label[for='red'] {
     background-color: #ff0000;
     outline: 4px solid #ff0303;
     border: 2px solid white;
@@ -529,3 +516,72 @@ header .profile .profile_info h3 {
 
 
 }
+
+/* box5 */
+.box5{
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.box5 p{
+    font-weight: normal;
+    font-size: 13px;
+    color: #B9BBBF;
+
+}
+
+.box5 .size{
+    display: flex;
+   column-gap: 10px;
+}
+
+.box5 .size input{
+    display: none;
+
+}
+
+.box5 .size label{
+    margin-top: 15px;
+    color: #726C6C;
+    font-size: 11px;
+    background: #F3F3F3;
+    display: inline-block;
+    text-align: center;
+    padding: 7px 5px;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 20px;
+
+    
+} 
+
+
+.box5 .size label::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    outline: 1px solid #726C6C;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translatey(-50%);
+    
+}
+.box5 .size input:checked + label 
+{
+
+    background: #EDF0F8;
+    color: #3A4980;
+
+}
+.box5 .size input:checked + label::before{
+    background: #3A4980;
+    border: 2px solid #EDF0F8;
+    outline: 1px solid #3A4980;
+}
+
+

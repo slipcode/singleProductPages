@@ -1,29 +1,29 @@
-const defultImg = document.querySelector('.container .gallary .defualt');
-const firstImg = document.querySelector('.container .gallary .mult-gall .one');
-const seconttImg = document.querySelector('.container .gallary .mult-gall .two');
-const thirdImg = document.querySelector('.container .gallary .mult-gall .three');
-const forthImg = document.querySelector('.container .gallary .mult-gall .four');
+const defultImg = document.querySelector('.container .gallary .defualt img');
+const firstImg = document.querySelector('.container .gallary .mult-gall .one img');
+const seconttImg = document.querySelector('.container .gallary .mult-gall .two img');
+const thirdImg = document.querySelector('.container .gallary .mult-gall .three img');
+const forthImg = document.querySelector('.container .gallary .mult-gall .four img');
 
-const firstImgPath = "url('../img/product1/img-1.png')";
-const seconttImgPath = "url('../img/product1/img-2.png')";
-const thirdImgPath = "url(../img/product1/img-3.png)";
-const forthImgPath = "url('../img/product1/img-4.png')";
+const firstImgPath = "./img/product1/img-1.png";
+const seconttImgPath = "./img/product1/img-2.png";
+const thirdImgPath = "./img/product1/img-3.png";
+const forthImgPath = "./img/product1/img-4.png";
 
 firstImg.addEventListener("click", () => {
-    defultImg.style.background = firstImgPath;
+    defultImg.src = firstImgPath;
 
 })
 seconttImg.addEventListener("click", () => {
-    defultImg.style.background = seconttImgPath;
+    defultImg.src = seconttImgPath;
 
 
 })
 thirdImg.addEventListener("click", () => {
-    defultImg.style.background = thirdImgPath;
+    defultImg.src = thirdImgPath;
 
 })
 forthImg.addEventListener("click", () => {
-    defultImg.style.background = forthImgPath;
+    defultImg.src = forthImgPath;
 
 
 })
