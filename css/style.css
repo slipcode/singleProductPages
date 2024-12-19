@@ -1,6 +1,6 @@
 /* Root variables for primary colors and theme settings */
 :root {
-    -pri-co: jj;
+    -pri-co: red;
     /* Placeholder for primary color variable */
 }
 
@@ -123,7 +123,7 @@ header .profile .profile_info h3 {
 /* Main layout container */
 .container {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     column-gap: 5px;
     /* Spacing between columns */
@@ -153,7 +153,8 @@ header .profile .profile_info h3 {
     border-radius: 20px;
     overflow: hidden;
 }
-.container .gallary .defualt img{
+
+.container .gallary .defualt img {
     width: 100%;
 }
 
@@ -188,9 +189,8 @@ header .profile .profile_info h3 {
 
 /* Specific thumbnail backgrounds */
 
-.container .gallary .mult-gall div img{
+.container .gallary .mult-gall div img {
     width: 100%;
-    
 }
 
 
@@ -211,7 +211,6 @@ header .profile .profile_info h3 {
     background: #EDF0F8;
     align-items: center;
     border-radius: 6px;
-
 }
 
 .product-info .nav-menu :where(p, i) {
@@ -236,7 +235,6 @@ header .profile .profile_info h3 {
     padding-bottom: 20px;
     border-bottom: 1px solid #E4E4E4;
 
-
 }
 
 .product-info .product-itle-and-reviwe .title h1 {
@@ -250,7 +248,6 @@ header .profile .profile_info h3 {
     color: #B9BBBF;
     font-size: 14px;
 }
-
 
 /* white list */
 .product-info .product-itle-and-reviwe .white-list {
@@ -280,7 +277,6 @@ header .profile .profile_info h3 {
     background: #FFF0F0;
 }
 
-
 .product-info .product-itle-and-reviwe .white-list i {
     background: #EDF0F8;
     padding: 5.5px 7px;
@@ -296,7 +292,6 @@ header .profile .profile_info h3 {
     margin-top: 30px;
     padding-bottom: 20px;
     border-bottom: 1px solid #E4E4E4;
-
 }
 
 .product-info .price-star-riviwe {
@@ -304,8 +299,6 @@ header .profile .profile_info h3 {
     height: 54px;
     display: flex;
     column-gap: 20px;
-
-
 }
 
 .price-star-riviwe div:first-child h3 {
@@ -331,7 +324,6 @@ header .profile .profile_info h3 {
 .price-star-riviwe div:last-child .icon {
     height: 24px;
     display: flex;
-
 }
 
 .price-star-riviwe div:last-child .icon i {
@@ -368,7 +360,6 @@ header .profile .profile_info h3 {
     margin-top: 10px;
     color: #B9BBBF;
     font-size: 10px;
-
 }
 
 .price-star-riviwe div:last-child p span {
@@ -384,16 +375,14 @@ header .profile .profile_info h3 {
     padding-bottom: 20px;
     border-bottom: 1px solid #E4E4E4;
 
-
-
 }
 
-.product-info .box4 h4{
+.product-info .box4 h4 {
     font-weight: normal;
     font-size: 13px;
     color: #B9BBBF;
-    
 }
+
 .product-info .box4 .container {
     height: 60px;
     display: flex;
@@ -417,7 +406,6 @@ header .profile .profile_info h3 {
     background-color: #ff0000;
     border: 2px solid rgb(255, 3, 3);
     color: red;
-
 }
 
 .product-info .box4 .container input#red:checked+label[for='red'] {
@@ -425,8 +413,6 @@ header .profile .profile_info h3 {
     outline: 4px solid #ff0303;
     border: 2px solid white;
     color: rgb(255, 255, 255);
-
-
 }
 
 /* red togle */
@@ -435,7 +421,6 @@ header .profile .profile_info h3 {
     /* outline: 4px solid #ff0303; */
     border: 2px solid rgb(255, 3, 3);
     color: red;
-
 }
 
 .product-info .box4 .container input#red:checked+label[for='red'] {
@@ -443,8 +428,6 @@ header .profile .profile_info h3 {
     outline: 4px solid #ff0303;
     border: 2px solid white;
     color: rgb(255, 255, 255);
-
-
 }
 
 /* black */
@@ -452,7 +435,6 @@ header .profile .profile_info h3 {
     background-color: #000000;
     border: 2px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
-
 }
 
 .product-info .box4 .container input#black:checked+label[for='black'] {
@@ -460,9 +442,6 @@ header .profile .profile_info h3 {
     outline: 4px solid #070000;
     border: 2px solid white;
     color: rgb(255, 255, 255);
-
-
-
 }
 
 /* yellow */
@@ -470,7 +449,6 @@ header .profile .profile_info h3 {
     background-color: yellow;
     border: 2px solid yellow;
     color: yellow;
-
 }
 
 .product-info .box4 .container input#yellow:checked+label[for='yellow'] {
@@ -478,8 +456,6 @@ header .profile .profile_info h3 {
     outline: 4px solid yellow;
     border: 2px solid white;
     color: rgb(255, 255, 255);
-
-
 }
 
 /* blue */
@@ -487,7 +463,6 @@ header .profile .profile_info h3 {
     background-color: blue;
     border: 2px solid blue;
     color: blue;
-
 }
 
 .product-info .box4 .container input#blue:checked+label[for='blue'] {
@@ -495,8 +470,6 @@ header .profile .profile_info h3 {
     outline: 4px solid blue;
     border: 2px solid white;
     color: rgb(255, 255, 255);
-
-
 }
 
 /* blue */
@@ -504,7 +477,6 @@ header .profile .profile_info h3 {
     background-color: greenyellow;
     border: 2px solid greenyellow;
     color: greenyellow;
-
 }
 
 .product-info .box4 .container input#greenyellow:checked+label[for='greenyellow'] {
@@ -512,36 +484,32 @@ header .profile .profile_info h3 {
     outline: 4px solid greenyellow;
     border: 2px solid white;
     color: rgb(255, 255, 255);
-
-
 }
 
 /* box5 */
-.box5{
+.box5 {
     width: 100%;
     margin-top: 30px;
     padding-bottom: 20px;
     border-bottom: 1px solid #E4E4E4;
 }
 
-.box5 p{
+.box5 p {
     font-weight: normal;
     font-size: 13px;
     color: #B9BBBF;
-
 }
 
-.box5 .size{
+.box5 .size {
     display: flex;
-   column-gap: 10px;
+    column-gap: 10px;
 }
 
-.box5 .size input{
+.box5 .size input {
     display: none;
-
 }
 
-.box5 .size label{
+.box5 .size label {
     margin-top: 15px;
     color: #726C6C;
     font-size: 11px;
@@ -552,12 +520,10 @@ header .profile .profile_info h3 {
     border-radius: 5px;
     position: relative;
     padding-left: 20px;
-
-    
-} 
+}
 
 
-.box5 .size label::before{
+.box5 .size label::before {
     content: "";
     width: 8px;
     height: 8px;
@@ -568,19 +534,130 @@ header .profile .profile_info h3 {
     left: 5px;
     top: 50%;
     transform: translatey(-50%);
-    
 }
-.box5 .size input:checked + label 
-{
+
+.box5 .size input:checked+label {
 
     background: #EDF0F8;
     color: #3A4980;
-
 }
-.box5 .size input:checked + label::before{
+
+.box5 .size input:checked+label::before {
     background: #3A4980;
     border: 2px solid #EDF0F8;
     outline: 1px solid #3A4980;
 }
 
+/* .box6 */
 
+.box6 {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.box6 .counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 128px;
+    height: 44px;
+    background: #F3F3F3;
+    border-radius: 23px;
+    padding: 0 20px;
+    color: #3A4980;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.box6 .counter button {
+    border: none;
+    cursor: pointer;
+    color: #3A4980;
+    font-size: 16px;
+    font-weight: bold;
+    background: none;
+}
+
+.box6 .counter button:hover {
+    color: #002f5e;
+}
+
+.box6 .counter span {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.box6 .add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 235px;
+    height: 44px;
+    background: #3A4980;
+    border-radius: 23px;
+    padding: 0 70px;
+    color: #FFFFFF;
+    font-size: 12px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box7 {
+
+    height: 126px;
+    width: 443px;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box7 div {
+    display: flex;
+    border-bottom: 1px solid #E4E4E4;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.box7 div:last-child {
+    border: none;
+    padding: 0;
+}
+
+.box7 div span {
+    margin-left: 10px;
+}
+
+.box7 div i {
+    margin-top: 2px;
+    color: #D75951;
+    font-size: 12px;
+}
+
+.box7 div h4 {
+    color: #1D364D;
+    font-size: 12px;
+}
+
+.box7 div p,
+.box7 div a {
+    color: #726C6C;
+    font-size: 10px;
+}
+
+main .related-product {
+    width: 100%;
+    height: 20px;
+    margin-top: 150px;
+    background: #000;
+}
